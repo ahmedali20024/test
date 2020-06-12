@@ -1,0 +1,89 @@
+/* Start Global*/
+*{
+	margin: 0;				/*Reset All Elements*/
+	padding: 0;
+}
+
+ /* selector or element {
+	 margin-top: 10px;
+	 margin-right: 5px;
+	 margin-bottom: 10px;
+	 margin-left: 5px;
+	 
+	 or 
+	 
+	 margin: 10px 5px 10px 5px;  " margin-top  margin-right  margin-bottom  margin-left " 
+
+	or 
+	 
+	 margin: 10px 5px; 			 " margin-top and margin-bottom    margin-right and margin-left "  
+	 }  
+*/
+
+body {
+	font-family: Arial,Tahoma  /*Change the font in all page or in the body*/
+
+}
+
+/* End Global*/
+
+/* Start header */
+
+.main {
+	background-color: #333;
+	color: #DDD;
+	padding: 20px;
+	text-align: center;
+}
+
+/* End header */
+
+/* Start Article */
+article {
+	background-color: #f6f6f6;
+	border:1px solid #CCC;
+	margin: 20px;
+
+}
+article header {
+	background-color: #E2E2E2;
+	padding:10px;
+}
+article section {
+	padding: 10px;
+}
+/* End Article */
+/* Start Navigation */
+nav {
+	background: #ddd;
+	color: red;
+}
+nav ul {
+	padding: 20px;
+	text-align:center;
+}
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+
+nav ul li:after {	/* :after called selectors read: https://www.w3schools.com/css/css_selectors.asp*/
+	content:" |";		/* put "|" in the content   */
+}
+nav ul li:last-child:after {
+	content:" ";  /* remove "|" from last content */
+}
+
+
+/* End Navigation */
+/* Start footer */
+footer {
+	background-color: #333;
+	color: #DDD;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/* End footer */

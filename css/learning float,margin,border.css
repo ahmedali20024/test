@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.one {
+		width: 250px;
+		height: 100px;
+		background: red;
+		border: solid;
+		border-color:green; 
+		border-width: 15px;
+		float: right;
+	}
+	.two {
+		width: 250px;
+		height: 100px;
+		background: yellow;
+		border:double;
+		border-color:red; 
+		border-width: 15px;
+		float: left;
+		margin: 30px;
+		
+		
+	}
+	.three {
+		width: 250px;
+		height: 100px;
+		background: blue;
+		border: dashed;
+		border-color:yellow; 
+		border-width: 15px;
+		clear: both;
+		margin: 25px 15px;
+		position: relative;
+		top: 30px;
+		
+	}
+	.circle {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		border-radius: 50%;
+		position: relative;
+		left: 50px;
+		top: 30px;
+		margin-bottom: 30px;
+		
+	}
+.display{
+	display: inline;
+	background: red;
+	width:150px;
+	margin: 250px 0px;
+	padding: 25px 0px;
+}

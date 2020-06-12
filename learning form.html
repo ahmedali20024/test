@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="css/learning%20Html.css">
+	<link rel="stylesheet" type="text/css" href="css/learning%20Html.css">
+    <title>Learning Form</title>
+</head>
+<body>
+	<form>
+		<div>
+	  		<label>User Name:</label>
+			<input type="text" placeholder="your user name" name="userName">
+		</div>
+		<br>
+		<div>
+	  		<label>Email:</label>
+			<input type="email" placeholder="your e-mail" name="email">
+		</div>
+		<hr>
+		<div>
+	  		<label><input type="checkbox">Remember Me</label>
+		</div>
+		<div>
+	  		<label><input type="checkbox" checked>Remember Me</label>
+		</div>
+		<hr>
+		<div>
+			<p>Age:</p>
+			<!--with out "name"-->
+	  		<label><input type="radio">Over 18</label>
+	  		<p>or</p>
+			<p>Age:</p>
+			<!--with "name"-->
+	  		<label><input type="radio" name="age" >Under 18</label>
+			<br>
+			<label><input type="radio" name="age">Over 18</label>
+			<p>or</p>
+			<label>Age:</label>
+			<input type="number" name="age" value="30">
+			<p>or</p>
+			<label>Brithday</label>
+			<input type="date" name="age">
+		</div>
+		<hr>
+		<div>
+			<label>Learning Front-End Development:</label>
+			<select>
+				<!--with out selected-->
+				<option>Html</option>
+				<option>CSS</option>
+				<option>java Script</option>		
+			</select>
+			<p>or</p>
+			<label>Learning Front-End Development:</label>
+			<select>
+				<!--with selected-->
+				<option>Html</option>
+				<option selected>CSS</option>
+				<option>java Script</option>		
+			</select> 
+		</div>
+		<hr>
+		<label>Learning textarea Form</label>
+		<textarea id="w3review" name="w3review" rows="4" cols="50">
+  		At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+  		</textarea>
+		<div>
+			<input type="submit" name="submit" value="submit">
+		</div>
+	</form>
+</body>
+</html>

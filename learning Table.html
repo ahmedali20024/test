@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning Table</title>
+    <style>
+    table, th, td  {
+        border: 1px solid black;
+        border-collapse: collapse;/*collapse شكل الخطوط المحيطة بال Table*/
+        text-align: center;
+        padding: 18px;
+        background-color: #f1f1c1;
+    }
+    caption {
+        padding: 12px;
+        font-size: 28px;
+        text-decoration-style: double;
+        text-decoration-line: underline;
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/learning%20Html.css">
+</head>
+<body>
+    <!Learning Table>
+    <div class="p">
+    <p class="tag">Learning normal Tables:</p>
+    <table style="width: 70%"><!element to define a table>
+        <caption>Names Of The Winners </caption><!element to define a table Nmae>
+        <br>
+        <tr><!element to define a table row>
+            <th>No</th><!element to define a table heading>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Gander</th>
+        </tr>
+        <tr>
+            <td>1</td><!element to define a table data>
+            <td>Jill</td>
+            <td>35</td>
+            <td>aaaaaa</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Smith</td>
+            <td>40</td>
+            <td>aadfsss</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nany</td>
+            <td>24</td>
+            <td>cccc</td>
+            <td>Female</td>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <!Learning colspan (merage columns)>
+    <div class="p">
+    <p class="tag">learning table with margin columns(colspan)</p>
+    <table style="width: 70%">
+    <caption>Names Of The Winners</caption>
+    <tr>
+    <th>No</th>
+    <th colspan="2">Names</th>
+    <th colspan="2">Aerage Age</th>
+    <th>Email</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>John</td>  
+    <td>Smith</td>
+    <td>30 Years </td>
+    <td>38 Years </td>
+    <td>22252@21c</td>
+    </tr>
+    <tr>
+    <td>2</td>
+    <td>Omar</td>
+    <td>Ahmed</td>
+    <td>35 Years </td>
+    <td>39 Years </td>
+    <td>szzsxs@scfd</td>
+    </tr>
+    <tr>
+    <td>3</td>
+    <td>Hassan</td>
+    <td>Nour</td>
+    <td>36 Years </td>
+    <td>37 Years </td>
+    <td>szsxs@scfd</td>
+    </tr>
+    </table>
+	</div>
+    <br>
+    <!Learning rowspan (merage rows)>
+
+    <div class="p">
+    <p class="tag">learning table with margin rows(rowspan)</p>
+    <table style="width:70%">
+    <caption>Names Of The Winners</caption>
+        <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+        <th>Gander</th>
+        </tr>
+        <tr>
+        <td rowspan="2">1</td><!rowspN>
+        <td>Jill</td>
+        <td>35</td>
+        <td>aaaaaa</td>
+        <td>Male</td>
+        </tr>
+        <tr>
+        <td>Smith</td>
+        <td>40</td>
+        <td>aadfsss</td>
+        <td>Male</td>
+        </tr>
+        <tr>
+        <td rowspan="3">2</td>
+        <td>Nany</td>
+        <td>24</td>
+        <td>cccc</td>
+        <td>Female</td>
+        </tr>
+        <tr>
+        <td>John</td>  
+        <td>30</td>
+        <td>ssdfdf</td>
+        <td>Male</td>
+        </tr>
+        <tr>
+        <td>Omar</td>
+        <td>35</td>
+        <td>ssdfdf</td>
+        <td>Male</td>
+        </tr>
+        </table>
+     </div>
+  </body>
+</html>

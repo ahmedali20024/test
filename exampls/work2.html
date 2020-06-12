@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script src="work2.js"></script>
+    <style>
+        #goodbye {
+            display: block;
+        }
+        #balance{
+            display: none;
+        }
+    </style>    
+</head>
+<body>
+
+<div>
+<fieldset>
+<legend>Personal Data</legend>
+
+UserName:   <input type="text" name="uname" autocomplete="on" value=""><br>
+<br>
+Email: <input type="text" style="inl" autocomplete="on" value="" ><br>
+<br>
+<button onclick="cont()">Continue</button>
+<button onclick="exit()">Exit</button>
+    <p id="goodbye" onclick="hidden()"></p>
+    <p id="balance" >Balance :<input type="text" id="balance1" value=""><button onclick="check()">Check</button> </p>
+    <p id="show"></p>
+    </fieldset>
+    </div>      
+<br>
+</body>
+</html>

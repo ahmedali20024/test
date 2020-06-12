@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0
+}
+
+.width-percantage{
+	border: 5px solid #200108;
+	width: 1000px;
+}
+
+
+.width-percantage h1 {
+	border:10px solid red;
+	padding:30px;
+	margin: 25px;
+	width: 85%; /*85% of 1000px in first class(parent element) = 850px*/
+	/* total width = 930px: 850px + 30*2(60px) in padding h1 + 10*2(20px) in border in h1 */
+	
+}
+
+.min-width {
+	margin-top:  15px;
+	padding:5px;
+	border: 5px solid #200108;
+	
+	
+}
+.min-width h2{
+	text-decoration: underline double;
+	padding-bottom: 10px;
+	
+}
+.min-width span{
+	border: 2px solid red;
+	background: yellow;
+	min-width:none;
+}
+.min-width P{
+	border: 2px solid red;
+	background: yellow;
+	min-width: 600px;
+	display: inline-block; /* we use display:inline-block because p is block element so the width, high is not effective so we use 
+	inline-block to effective width, high */
+}
+
+.max-width {
+	margin-top:  15px;
+	padding:5px;
+	border: 5px solid #200108;
+	
+	
+}
+.max-width h2{
+	text-decoration: underline double;
+	padding-bottom: 10px;
+	
+}
+.max-width .min-content{
+	border: 2px solid red;
+	background: yellow;
+	max-width: min-content;
+	/* none | max-content | min-content | fit-content | fill-available */
+} 
+.max-width .max-content{
+	border: 2px solid red;
+	background: yellow;
+	max-width: max-content;
+	display: inline-block; /* we use display:inline-block because p is block element so the width, high is not effective so we use 
+	inline-block to effective width, high */
+}
+
+.max-width .max-width-value{
+	border: 2px solid red;
+	background: yellow;
+	max-width: 600px;
+	display:inline-block; /* we use display:inline-block because p is block element so the width, high is not effective so we use 
+	inline-block to effective width, high */
+}
+
+
+
+
+
+

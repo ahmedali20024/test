@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/*
+	font-family: Arial,Helvetica,sans-serif;
+	font-sixe:15px;
+	line-height: 1.5;
+	*/
+	font: 15px/1.5 Arical,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global */
+.continer{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+}

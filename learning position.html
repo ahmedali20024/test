@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Learning position</title>
+<style> 
+	/*top,bottom,left and right prop. uesd with position prop. */
+	.abs{/*استخدام pos:absoulate من غير pos:relative*/
+	background: #EF5658;
+	position: absolute;
+	top: 31px;
+	left: 171px;
+	}
+	.parents{/*استخدام pos:absoulate مع استخدام  pos:relative*/
+		background: #9EB0EB;
+		padding: 10px;
+		height: 300px;
+		position:relative;
+		top:50px;
+		left: 30px;
+	}
+	.child1{/*لم يتم استخدام postion : absoulate*/
+		background: #EF5658;
+	}
+	.child2{/*تم استخدام postion : absoulate*/
+		background: #EF5658;
+		position: absolute;
+		bottom: 5px;
+	}
+	.child3{/*تم استخدام postion : absoulate*/
+		background: #EF5658;
+		position: absolute;
+		bottom: 55px;
+		left: 100px;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+	
+	<div class="abs">
+		Div with postion absoulate only
+		
+	</div>
+	<div class="parents">
+			div parents
+		<div class="child1">
+			 div child (1) with out position:absoulate prop.
+		</div>
+		<div class="child2">
+			 div child (2) with position:absoulate prop.
+		</div>
+		<div class="child3">
+			 div child (3) with position:absoulate prop.
+		</div>
+	</div>
+	
+
+	
+</body>
+</html>
